@@ -8,6 +8,8 @@ UA = 'LawCodex/1.0 (+https://github.com/LawCodex)'
 
 def main():
     rows = [l.rstrip('\n').split('\t') for l in open(os.path.join(RAW, 'list.tsv'))]
+    if len(sys.argv) > 1 and sys.argv[1] == 'reverse':   # optional 2nd worker from the other end
+        rows = rows[::-1]
     os.makedirs(os.path.join(RAW, 'html'), exist_ok=True)
     s = requests.Session(); s.headers['User-Agent'] = UA
     for n, r in enumerate(rows):
