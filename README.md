@@ -7,7 +7,15 @@ Retrieved: **2026-10-12**.
 
 ## Coverage
 
-__COUNTS__
+| Path | Contents | Files |
+|---|---|---:|
+| `undsen-khuul/` | Constitution of Mongolia (1992, consolidated) | 1 |
+| `khuul/<year>/` | Laws in force | 950 |
+| `ernhiilogchiin-zarlig/<year>/` | Decrees of the President in force | 212 |
+| **Total** | | **1,163** |
+
+The system reported 956 laws and 218 decrees in force; 6 + 6 list rows could not be parsed from the
+list endpoint and are missing.
 
 All acts of the following categories that the Unified Legal Information System marks as **valid /
 in force** (*Хүчинтэй*), in the consolidated version shown by the system (amendment notes such as
@@ -22,8 +30,7 @@ in force** (*Хүчинтэй*), in the consolidated version shown by the system
 
 **Not covered:** resolutions of the State Great Khural (≈2,600 in force), Government resolutions
 (≈5,800), ministerial orders and other subordinate acts, local acts, international treaties
-(available on legalinfo.mn). Acts whose page has no structured text were skipped (see the count of
-missing files below).
+(available on legalinfo.mn).
 
 ## Source
 
